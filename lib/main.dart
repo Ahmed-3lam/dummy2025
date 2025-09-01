@@ -4,13 +4,13 @@ void main() {
 
 
 
-runApp(const MyApp());
+runApp(const khalid());
 
 
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class khalid extends StatelessWidget {
+  const khalid({super.key});
 
   @override
   Widget build(BuildContext context) {
