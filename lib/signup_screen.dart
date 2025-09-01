@@ -22,7 +22,7 @@ class SignupScreen extends StatelessWidget {
                       prefixIcon: const Icon(Icons.email),
                     ),
                   ),
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 10),
 
                   TextField(
                     decoration: InputDecoration(
