@@ -1,20 +1,17 @@
 import 'package:flutter/material.dart';
 
 void main() {
-
-
-
-runApp(const khalid());
-
-
+  runApp(const MyApp());
 }
 
-class khalid extends StatelessWidget {
-  const khalid({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(home: Container());
+    return MaterialApp(
+      home: Container(),
+      theme: ThemeData(primarySwatch: Colors.blue),
+    );
   }
 }
-
